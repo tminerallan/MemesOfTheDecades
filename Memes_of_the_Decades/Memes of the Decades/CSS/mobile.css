@@ -1,0 +1,46 @@
+@media only screen and (max-width:480px){
+
+body{
+width:90vw;
+}
+
+nav{
+  padding-right: 10vw;
+}
+
+figure img {
+  width: 50vw;
+  height: 50vw;
+
+}
+
+tr{
+  display: block;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+td{
+  display: inline-block;
+  padding-top: 4em;
+  padding-bottom: 5em;
+  width: 100%
+}
+
+
+
+.index{
+  width: 60vw;
+}
+
+.about{
+  width: 70vw;
+}
+
+.abouttitle{
+width: 60vw;
+}
+
+.transition{
+  width: 70vw;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/stylsheet1.css"/>
+    <link rel="stylesheet" href="css/mobile.css"/>
+  </head>
+
+  <body>
+
+      <header>
+        <h1>Memes of the Decades</h1>
+
+        <nav>
+          <ul>
+            <li>  <a href="index.html"><img src="Images/JPG/homeButton.jpg" alt= "Home Button" height = 50 width = 80></a></li>
+            <li>  <a href="About.html" ><img src="Images/JPG/aboutButton.jpg" alt= "About Button" height = 50 width = 80></a></li>
+            <li>  <a href="Contact.html" ><img src="Images/JPG/contactButton.jpg" alt= "Contact Button" height = 50 width = 80></a> </li>
+            <li>  <a href="2000.html" ><img src="Images/JPG/2000Button.jpg" alt= "2000 Button" height = 50 width = 80></a></li>
+            <li>  <a href="2010.html"><img src="Images/JPG/2010Button.jpg" alt= "2010 Button" height = 50 width = 80></a></li>
+            <li>  <a href="2020.html"><img src="Images/JPG/2020Button.jpg" alt= "2020 Button" height = 50 width = 80></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <form action="formSubmit.php" method="get" >
+        <table>
+          <tr>
+            <td colspan="2">
+              <h1>Contact us here!</h1>
+            </td>
+          </tr>
+          <tr>
+            <td >
+               <p>
+               <label for="Name">Name: </label>
+               <input id= Name type="text" name="Name" size= 50 placeholder="Enter your name" />
+             </P>
+             </td>
+             <td>
+               <p>
+               <label for="Email">Email: </label>
+               <input id = Email type="email" name="Email" size= 50 placeholder="Enter your email" />
+               </p>
+             </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <p>
+              <label for="Description">Tell us about your meme</label><br/>
+              <textarea id = Description name="Description" rows="5" cols="100" placeholder="Tell us about your meme here!"></textarea>
+              </p>
+            </td>
+          </tr>
+          <tr>
+          <td colspan="2">
+            <input type="submit" value="submit" name ="submit">
+          </td>
+          </tr>
+        </table>
+      </form>
+      </main>
+
+      <footer>
+        <h4>This is a fictional website</h4>
+          <h5> © Morgan Guse, Tieson Chandler, Tessa Miner </h5>
+      </footer>
+
+  </body>
+</html>
